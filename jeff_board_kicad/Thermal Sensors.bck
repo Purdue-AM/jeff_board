@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX31865Breakout
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-max31865-rtd-pt100-amplifier.pdf?timestamp=1566302508
+$ENDCMP
+#
+$CMP MLX90614
+D Infra Red Thermometer in TO-39 package.
+K IR, thermal, temperature, sensor
+F https://cdn-shop.adafruit.com/datasheets/MLX90614.pdf
+$ENDCMP
+#
+#End Doc Library
