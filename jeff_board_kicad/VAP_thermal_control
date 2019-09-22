@@ -1,0 +1,21 @@
+Source:	C:\Users\JC\Documents\GitHub\jeff_board\jeff_board_kicad\VAP_thermal_control.sch										
+Date:	9/22/2019 7:41										
+Tool:	Eeschema (5.1.2)-1										
+Generator:	C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py										
+Component Count:	40										
+Ref	Qnty	Value	Cmp name	Footprint	Description	Vendor	 Cost (from Digikey) 	Total Items Cost			
+"A1, "	1	Arduino_Nano_v3.x	Arduino_Nano_v3.x	Modules:Arduino_Nano	Arduino Nano v3.x	Digikey|Adafruit	 $22.00 	 $22.00 			
+"C2, C4, C7, C8, C10, "	5	0.1u	CP	Capacitors_THT:CP_Radial_D5.0mm_P2.00mm	Polarized capacitor	Digikey 	 $0.10 	 $0.50 			
+"C3, C1, C5, C6, C9, C11, "	6	1u	CP	Capacitors_THT:CP_Radial_D5.0mm_P2.00mm	Polarized capacitor	Digikey	 $0.23 	 $1.38 			
+"D1, D2, D3, D4, "	4	LED	LED	LEDs:LED_D5.0mm	Light emitting diode	Digikey|Adafruit	 $0.20 	 $0.80 			
+"J1, J2, J3, J4, J5, "	5	Conn_01x02_Female	Conn_01x02_Female	Connectors_Phoenix:PhoenixContact_MSTBVA-G_02x5.00mm_Vertical	"Pheonix screw terminal, single row, 01x02"	Digikey	 $0.48 	 $2.40 			
+"Q1, Q2, Q3, Q4, "	4	IRLB8721PBF	IRLB8721PBF	TO_SOT_Packages_THT:TO-220-3_Vertical	"62A Id, 30V Vds, N-Channel MOSFET, TO-220"	Digikey|Adafruit	 $2.80 	 $11.20 			
+"R1, R4, R2, R3, R9, R10, "	6	10k	R	Resistors_SMD:R_0805_HandSoldering	Resistor	"Digikey, Sorta Adafruit"	 $0.10 	 $0.60 			
+"R5, R6, R7, R8, "	4	1k	R	Resistors_SMD:R_0805_HandSoldering	Resistor	"Digikey, Sorta Adafruit"	 $0.10 	 $0.40 			
+"U1, "	1	TSR_1-24150	TSR_1-24150	TO_SOT_Packages_THT:TO-220-3_Vertical	"1A step-down regulator module, fixed 15V output voltage, 8-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"	Digikey|Adafruit	 $6.14 	 $6.14 			
+RTD Sensor	1	PT100	"RTD Temp Sensor, 100 or 1000 ohm"	N/A	"3 wire from adafruit, match resistance to the amplifier board."	Digikey|Adafruit	 $11.95 	 $11.95 			
+"U2, "	1	MAX31865Breakout	MAX31865Breakout	Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm		Digikey|Adafruit	 $14.95 	 $14.95 			
+"U3, "	1	MLX90614	MLX90614	TO_SOT_Packages_THT:TO-39-4_Window	Infra Red Thermometer in TO-39 package.	Digikey|Adafruit	 $14.55 	 $14.55 			
+"U4, U5, "	2	MIC4427	MIC4427	Housings_DIP:DIP-8_W7.62mm	"Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8"	Digikey	 $1.33 	 $2.66 			
+PCB	1	ENIG (Gold Plated)	jeff	--	Custom PCB from JLCPCB.com	JLCPCB (cost is approx w/ shipping	$30 	 $30.00 			
+Total Cost:								 $119.53 			
