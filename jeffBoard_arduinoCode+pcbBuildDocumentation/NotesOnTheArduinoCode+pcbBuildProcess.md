@@ -25,5 +25,11 @@ The actual capacitance values were correct and are functionally equivalent (argu
 
 Be careful not to accidentally swap polarity when connecting the 24 volt power supply as there is no protection.
 
+*Finally:*
+If making another board, please note that the mic4427ym component is not the correct package/footprint. It's important to note that as of March 2020, the footprint of the mic4427ym in the KiCad drawing does not reflect any available footprint of the mic4427ym as found on the web.
+This may have been a design mistake, or simply the original package is no longer available. 
+Either way: you can get around this by using a breakout board suitable for the mic4427ym IC itself and merging connections to the jeffBoard or by redesigning the footprint assignment on the jeffBoard to eliminate the mismatch.
+
+
 
 
