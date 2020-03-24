@@ -21,9 +21,8 @@ The design specified SMD resistors of 0805 size, but 0603 were used instead as n
 The actual resistance values were correct, and since the wattage being dissipated is quite low, the 0603 substitutes are functionally equivalent.
 
 Ceramic caps of 0603 size were substituted in for the polarity-sensitive electrolytic caps that were implied in the pcb silkscreen and KiCad footprints.
-The actual capacitance values were correct and are functionally equivalent (arguably superior).
+The actual capacitance values were correct and are functionally equivalent.
 
-Be careful not to accidentally swap polarity when connecting the 24 volt power supply as there is no protection.
 
 *Finally:*
 If making another board, please note that the mic4427ym component is not the correct package/footprint. It's important to note that as of March 2020, the footprint of the mic4427ym in the KiCad drawing does not reflect any available footprint of the mic4427ym as found on the web.
